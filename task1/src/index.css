@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-brand{
+ 
+  padding-left: 50px;
+}
+
+.navbar{
+  position: absolute;
+  /* top:50px ; */
+   /* z-index: 0;
+  margin-bottom: 0; */
+  height: 100px;
+  background-color: palevioletred;
+
+}
+
+
+.text1{
+ 
+  padding: 0 50px;
+}
+.btn1{
+ background-color:rgb(223, 103, 145) ;
+ border: none;
+ width: 150px;
+ margin-bottom: 10px;
+ height: 40px;
+ margin-left: 340px;
+ margin-top: 30px;
+}
+
+.btn1:hover{
+  background-color: pink;
+}
+
+.footer{
+  
+  height: 300px;
+
+  background-color: palevioletred;
+}
+
+.around{
+  
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+
+.about{
+  margin-left: 200px;
+  margin-bottom: 50px;
+}
+
+.p{
+  margin-left: 200px;
+}
+
+.pic{
+  width: 400px;
+  margin: 20px;
+  
+}
+
+.pa{
+
+  text-align: center; 
+  border-bottom: 4px solid #000; 
+  line-height: 0.2em;
+  margin: 10px 0 10px;
+}
+
+.pic1{
+  transition: transform 0.5s ease-in-out, opacity 0.2s ease-in-out;
+  width: 40%;
+  display: block;
+  margin: 0 auto ;
+  border-radius: 50%;
+}
+
+.pic:hover{
+transform: scale(1.1);
+opacity: 0.8;
+transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+
+}
+
+h2{
+  border-bottom: 4px solid black;
+  /* text-align: center; */
+  padding: 10px;
+  position: relative;
+  display: inline-block;
+  margin-left: 550px;
+
+}
+
+::before,
+::after{
+ content: "";
+ position: absolute;
+ top: 50%;
+ height: 2px;
+ background-color: black;
+}
+
+
+
+
+/* 
+::before{
+  left: 0;
+  width: 15px;
+
+} */
+
+.main1{
+  /* position: relative; */
+  
+  width: 100%;
+  background-color: pink;
+  height: 700px;
+}
+/* .copy{
+
+  background-color: blue;
+margin-right: 200px;
+} */
+
+.pic{
+
+}
+.bg{
+  width: 100%;
+  height: 600px;
+}
+
+.text1{
+ 
+
+}
+.title{
+ 
+  margin-top: 100px;
+}
+
+.portfolio{
+ 
+  margin-top: 60px;
+}
+
+.contact{
+  margin-top: 60px;
+}
+
+.icon{
+  background-color: #000;
+}
